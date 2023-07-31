@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Jx Tabe'; 
+    src: url('./JxTabeDemoRegular.ttf') format('truetype'); 
+  }
+
 body {
     background-color:  #03001a;
     margin: 0;
@@ -9,7 +14,7 @@ body {
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif; 
+    font-family: 'Manrope', sans-serif; 
 }
 
 .container {
@@ -22,7 +27,7 @@ body {
 
 .item {
     font-variant-numeric: lining-nums proportional-nums;
-    font-family: Manrope;
+   
     margin-right: 20px; 
     color: white; 
     font-weight: bold;
@@ -32,7 +37,8 @@ body {
 
 
 .item:nth-child(1) {
-    margin-right: 750px; 
+    margin-right: 750px;
+    font-family: "Jx Tabe",  sans-serif; 
 }
 
 .rectangle {
@@ -54,7 +60,7 @@ body {
     position: absolute;
     width: 960px;
     font-variant-numeric: lining-nums proportional-nums;
-    font-family: "Jx Tabe DEMO", Arial, sans-serif;
+    font-family: "Jx Tabe",  sans-serif;
     font-size: 200px;
     font-style: normal;
     font-weight: 400;
@@ -240,7 +246,6 @@ body {
     linear-gradient(180deg, rgba(4, 0, 27, 1) 0%, #966FEA 100%);
                       
 }
-
 /* Стили для изображения внутри кнопки */
 .button-image {
     width: 30px; 
@@ -249,4 +254,4 @@ body {
     margin-top: 0px;
     background-image: url('4.png'); 
     background-size: cover;
-}
+}  
